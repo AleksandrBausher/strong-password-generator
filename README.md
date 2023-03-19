@@ -28,8 +28,8 @@ To know more about me and my projects
 ![Second Prompt](./images/screenshot2.png "Second Prompt")
 ![Third Prompt](./images/screenshot3.png "Third Prompt")
 ![Fourth Prompt](./images/screenshot4.png "Fourth Prompt")
-![Fifth Prompt](./images/screenshot1.png "Fifth Prompt")
-![Generated Password](./images/screenshot1.png "Generated Password")
+![Fifth Prompt](./images/screenshot5.png "Fifth Prompt")
+![Generated Password](./images/screenshot6.png "Generated Password")
 
 
 ## Contribution
