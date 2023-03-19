@@ -15,16 +15,21 @@ A password generator web app is a tool that allows users to create strong, uniqu
 
 ## Installation
 
-follow the link of the deployed application [Strong Password Generator](https://aleksandrbausher.github.io/strong-password-generator) ,
+Follow the link of the deployed application [Strong Password Generator](https://aleksandrbausher.github.io/strong-password-generator).
 
-otherwise clone GitHub repository [Strong Password Generator](https://github.com/AleksandrBausher/strong-password-generator)
+Otherwise clone GitHub repository [Strong Password Generator](https://github.com/AleksandrBausher/strong-password-generator)
 
 ## Usage
-click here to access my [Strong Password Generator](https://aleksandrbausher.github.io/strong-password-generator/),<br />
-to know more about me and my projects
+Click here to access my [Strong Password Generator](https://aleksandrbausher.github.io/strong-password-generator/),<br />
+To know more about me and my projects
 
 ## Screenshot
-
+![First Prompt](./images/screenshot1.png "First Prompt")
+![Second Prompt](./images/screenshot2.png "Second Prompt")
+![Third Prompt](./images/screenshot3.png "Third Prompt")
+![Fourth Prompt](./images/screenshot4.png "Fourth Prompt")
+![Fifth Prompt](./images/screenshot1.png "Fifth Prompt")
+![Generated Password](./images/screenshot1.png "Generated Password")
 
 
 ## Contribution
