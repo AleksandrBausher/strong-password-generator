@@ -6,8 +6,6 @@ var generatedPasswordString = "";
 
 var generateBtn = document.querySelector("#generate");
 
-
-
 function passwordGenerator() {
   var charNos = window.prompt(
     "Enter the length of the password you want (8 to 128 characters only)"
@@ -18,13 +16,31 @@ function passwordGenerator() {
   var isSpecialChars = window.prompt("Enter 'yes' if you want to include Special chars letters as well");
 
   
+var passwordFromChars="";
+var passwordDump= "";
+  if(charNos>8||charNos<128 || isLowerCase=="yes" || isUpperCase=="yes" || isNumeric=="yes" || isSpecialChars=="yes"){
+    if(isLowerCase == "yes"){
+        passwordFromChars +=lowerCase
+    }
+    if(isUpperCase == "yes"){
+        passwordFromChars +=upperCases
+        
+    }
+    if(isNumeric == "yes"){
+        passwordFromChars +=integers
 
-  if(charNos>8||charNos<128 || isLowerCase || isUpperCase || isNumeric || isSpecialChars){
+    }
+    if(isSpecialChars == "yes"){
+        passwordFromChars +=specials
+    }
     
-
+    passwordDump = generatedPasswordString.charAt(
+        Math.floor(Math.random() * charNos))
 
 
   }
+
+  return passwordDump;
 }
 
 // Write password to the #password input
